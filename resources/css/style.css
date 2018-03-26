@@ -135,6 +135,19 @@ h2:after {
     color:#fff;
 }
 
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #27ae60;
+    color: #27ae60;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #27ae60;
+    background-color: #27ae60;
+    color: #fff;
+}
+
 /*-----------------------------*/
 /*HEADER*/
 /*-----------------------------*/
@@ -222,7 +235,7 @@ header {
 .projects-project-1:after {
     display: block;
     height: 1px;
-    width: 50%;
+    width: 100%;
     background-color: #27ae60;
     content: " "; /*after psudo class have to specify content (no words in this case)*/
     margin: 0 auto;
@@ -271,8 +284,64 @@ header {
 }
 
 .element-right {
-    margin-top: 5%;
+    margin-top: 4%;
+}
+
+.element-right div{
+    text-align: center;
 }
 /*-----------------------------*/
-/*My Projects*/
+/*SIGN UP*/
 /*-----------------------------*/
+.section-pricing {
+    background-color:#e2e2e2;
+}
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+    
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    
+}
+
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+.plan-price {
+    font-size:300%;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: #27ae60;
+    
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+    
+}
+
+.plan-box ul li{
+    padding:5px 0; 
+}
