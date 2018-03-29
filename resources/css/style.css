@@ -296,6 +296,10 @@ header {
 .section-pricing {
     background-color:#e2e2e2;
 }
+
+.pricing-header {
+    margin-bottom: 2%;
+}
 .plan-box {
     background-color: #fff;
     border-radius: 5px;
@@ -344,4 +348,36 @@ header {
 
 .plan-box ul li{
     padding:5px 0; 
+}
+
+/*------------------------------------------------- */
+/* FORM */
+/*--------------------------------------------------*/
+contact-form {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    border:1px solid #ccc;
+}
+
+textarea {
+    height:100px;
+    
+}
+
+input[type=checkbox] {
+    margin:10px 5px 10px 0; 
+}
+
+*:focus {
+    outline: none; 
 }
