@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robbie08/portfolio_robert.git"
+  },
+  "author": "Roberto Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robbie08/portfolio_robert/issues"
+  },
+  "homepage": "https://github.com/Robbie08/portfolio_robert#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

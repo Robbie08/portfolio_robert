@@ -38,6 +38,10 @@ section {
     padding: 3%;
 }
 
+.big-box {
+    padding: 3%;
+}
+
 
 /*-------------HEADINGS--------------*/
 h1,
@@ -127,7 +131,7 @@ input[type=submit]{
 
 .btn:link,
 .btn:visited {
-    background-color: #1b7-color741;
+    background-color: #27ae60;
 }
 
 .btn-full:hover,
@@ -202,6 +206,35 @@ header {
     border-bottom: 2px solid #27ae60;
 }
 
+/*-----------------------------*/
+/*My Projects VERSION 2*/
+/*-----------------------------*/
+.section-work {
+    background: #f3f3f3;
+}
+
+.project-description {
+    margin: 4px;
+    word-spacing: 2px;
+    text-align: center;
+    line-height: 145%;
+    
+}
+
+.project-description a{
+    margin-top: 30px;
+}
+
+.big-box:after {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    content: " "; /*after psudo class have to specify content (no words in this case)*/
+    box-shadow: 10%;
+}
+
+
 
 /*-----------------------------*/
 /*My Projects*/
@@ -209,7 +242,11 @@ header {
 
 .section-projects,
 .section-showcase {
- background: #F3F4F5;
+  background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))), url(img/projects.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/projects.jpg);
+    background-attachment: fixed;
+    background-size: cover; /*covers whole section with the backgroun BEST PRACTICE*/
+    color: #fff;
 }
 
 .section-showcase {
@@ -238,7 +275,7 @@ header {
     display: block;
     height: 1px;
     width: 100%;
-    background-color: #27ae60;
+    background-color: #fff;
     content: " "; /*after psudo class have to specify content (no words in this case)*/
     margin: 0 auto;
 }
@@ -250,7 +287,7 @@ header {
 .projects-showcase h4 {
     margin-left: 2%;
     margin-bottom: 3%;
-    margin-top: 0;
+    margin-top: ;
     text-align: center;
 }
 
@@ -296,7 +333,8 @@ header {
 /*SIGN UP*/
 /*-----------------------------*/
 .section-pricing {
-    background-color:#e2e2e2;
+   /*background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,.1));*/
+    background: #dfe6e9;
 }
 
 .pricing-header {
@@ -355,6 +393,18 @@ header {
 /*------------------------------------------------- */
 /* FORM */
 /*--------------------------------------------------*/
+
+.section-form {
+     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))), url(img/mail);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/mail.jpg);
+    background-attachment: fixed;
+    background-size: cover; /*covers whole section with the backgroun BEST PRACTICE*/
+    color: #fff;
+}
+.section-form textarea{
+    margin-left: -15%;
+}
+
 contact-form {
     width: 60%;
     margin: 0 auto;
@@ -365,21 +415,20 @@ input[type=text],
 input[type=email],
 select,
 textarea {
-    width: 100%;
+    width: 80%;
     padding: 7px;
     border-radius: 10px;
+    margin-left: -15%;
     border:1px solid #ccc;
 }
+input[type=submit]{
+    margin-left: 16%;
+}
+
 
 textarea {
-    height:100px;
-    
+    height:150px;
 }
-
-input[type=checkbox] {
-    margin:10px 5px 10px 0; 
-}
-
 *:focus {
     outline: none; 
 }
@@ -393,6 +442,7 @@ footer {
     background-color: #333; 
     padding: 50px;
     font-size: 80%;
+    margin-top: -5%;
     
 }
 
