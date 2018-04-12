@@ -144,6 +144,7 @@ input[type=submit]{
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #27ae60;
+    background-color: #ffff;
     color: #27ae60;
 }
 
