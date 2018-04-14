@@ -107,19 +107,17 @@
     }
     
      input[type=submit]{
-        margin-left: 125px;
-
+        margin-left: 33%;
     }
     
     .social-links {
     
-        margin-right: 90px;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin-right: 30%;
     }
     
     .footer-nav {
-        font-size: 90%;
+        font-size: 85%;
+        
     }
     
 }
