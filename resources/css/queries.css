@@ -9,6 +9,12 @@
     .row {padding: 0 2%;}
 }
 
+@media only screen and (max-width: 1199px){
+    .big-box {
+        display: block;
+        margin-top: 10%;
+    }
+}
 /* Small tablet to big tablets: from 7678px to 1023px */
 @media only screen and (max-width: 1023px){
     body { font-size: 18px; }
@@ -33,25 +39,80 @@
     .big-box {
         margin-top: 5%;
     }
+    
+    input[type=submit]{
+        margin-left: 15%;
+    }
 
 }
 
+@media only screen and (max-width: 942px){
+    .project-description{ 
+        font-size: 100%;
+    }
+    
+    input[type=submit]{
+        margin-left: 13.5%;
+    }
+    
+     .web-photo img {
+        margin-right:4%;
+        width: 95%;
+    }
+    
+     input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width:80%;
+    
+    }
+    
+    .section-form textarea{
+        width: 80%;
+    }
+}
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px){
     .project-description {
         font-size: 85%;
     }
     input[type=submit]{
-          margin-left: 12%;;
+          margin-left: 11%;;
     }
+    
+    .web-photo img {
+        margin-right:4%;
+        width: 95%;
+ 
+    }
+    
+      .footer-nav {
+        
+        font-size: 95%;
+    
     }
 
+    
+    }
+
+@media only screen and (max-width: 728px){
+     .footer-nav {
+        
+        font-size: 90%;
+         margin-right: 0;
+    
+    }
+    
+}
 /* Small phones: from 0 to 400px */
 @media only screen and (max-width: 480px){
+    
     .hero-text-box h1{
     font-size: 250%;
     text-align: center;   
     }
+    
     .hero-text-box  {
         text-align: center;
     }
@@ -84,6 +145,7 @@
     .footer-nav {
         list-style: none;
         float: center;
+        
     
     }
 
