@@ -183,3 +183,16 @@
     }
     
 }
+
+@media only screen and (max-width: 392px){
+    .footer-nav {
+        font-size: 75%;
+        
+    }
+    
+    .web-photo img {
+        margin-left:7%;
+        width: 90%;
+ 
+    }
+}
