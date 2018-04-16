@@ -180,6 +180,8 @@ header {
     font-size: 300%;
     
 }
+
+/*MAIN NAVI*/
 .main-nav {
      width: 75%;
     margin-left: 15%;
@@ -208,6 +210,28 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #27ae60;
+}
+
+/*STICKY NAVI*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .98);
+    box-shadow: 0 2px 2px #b19e9e;
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 1px;
+    height: 66px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    color:#555;
+    padding: 1px 0;
+    
 }
 
 /*-----------------------------*/
