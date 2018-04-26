@@ -20,24 +20,40 @@ $(document).ready(function() {
     
     /*Nav bar smooth scrolling*/
     $(function(){
-        
         // Select all links with hashes
         $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-            || location.hostname == this.hostname) {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
 
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 1000);
-            return false;
-            }
-            }
-        });
-        
-        
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+         $('html,body').animate({
+             scrollTop: target.offset().top
+        }, 2000);
+        return false;
+        }
+        }
+        });  
     });
+
     
-});
+    /*Animation on scroll*/
+    $('.js--section-skills').waypoint(function(direction) {
+        $('.js--section-skills').addClass('animated fadeIn');
+        
+        } , {
+                offset: '200px;'
+
+        });
+    
+    });
+
+
+    var typed3 = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 50,
+    backSpeed: 50,
+    smartBackspace: true, // this is a default
+    loop: true
+  });

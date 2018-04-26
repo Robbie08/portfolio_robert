@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Robbie08/portfolio_robert#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "typed.js": "^2.0.6"
   }
 }
