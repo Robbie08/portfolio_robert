@@ -15,6 +15,12 @@
         margin-top: 10%;
     }
 }
+
+@media only screen and (max-width: 1045px){
+    .main-nav {
+        font-size: 90%;
+    }
+}
 /* Small tablet to big tablets: from 7678px to 1023px */
 @media only screen and (max-width: 1023px){
     body { font-size: 18px; }
@@ -46,18 +52,20 @@
 
 }
 
-@media only screen and (max-width: 945x){
-    .main-nav {
-        font-size: 90%;
+@media only screen and (max-width: 986px)
+{
+    .main-nav{
+        font-size: 80%;
     }
-}
+
+
 @media only screen and (max-width: 942px){
     .project-description{ 
         font-size: 100%;
     }
     
     .main-nav {
-        font-size: 90%;
+        font-size: 75%;
     }
     
     input[type=submit]{
@@ -80,6 +88,33 @@
     .section-form textarea{
         width: 80%;
     }
+}
+    
+@media only screen and (max-width: 855px){
+    
+    .main-nav{
+        font-size: 70%;
+    }
+    
+}
+    
+@media only screen and (max-width: 830px){
+    
+    .main-nav {
+        font-size: 60%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
+    
+@media only screen and (max-width: 805px){
+    
+    .main-nav {
+        
+    }
+
+    
 }
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px){
@@ -113,7 +148,7 @@
 @media only screen and (max-width: 728px){
      .footer-nav {
         
-        font-size: 90%;
+         font-size: 90%;
          margin-right: 0;
     }
 
