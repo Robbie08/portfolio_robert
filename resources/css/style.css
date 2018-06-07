@@ -161,6 +161,8 @@ input[type=submit]{
     border: 1px solid #42CBA2;
     background-color: #fcfcfc;
     color: #42CBA2;
+    position: absolute;
+    display: inline-block;
         
 }
 
@@ -169,6 +171,8 @@ input[type=submit]{
     border: 1px solid white;
     background-color: #42CBA2;
     color: white;
+    position: absolute;
+    display: inline-block;
 }
 
 
@@ -224,6 +228,8 @@ header {
 
 .hero-text-box a {
     margin-left: 39%;
+    position:absolute;
+    display: inline-block;
     
 }
 .hero-text-box p {
