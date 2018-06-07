@@ -204,6 +204,10 @@
 
 @media only screen and (max-width: 680px)
 {
+    .header-text-box h1{
+    font-size: 240%;
+    text-align: center;   
+    }
      .img-frame {  
         margin: 2% 37%;
     } 
@@ -222,6 +226,15 @@
 }
 @media only screen and (max-width: 590px)
 {
+    
+    .header-text-box h1 {
+        font-size: 230%;
+    }
+    
+    .hero-text-box {
+        top:60%; 
+    }
+    
      .img-frame {  
         margin: 2% 35.5%;
     } 
@@ -250,18 +263,36 @@
         margin: 2% 33%;
     } 
     
+    .header-text-box h1{
+    font-size: 180%;
+    text-align: center;   
+    }
+    
      .hero-text-box a {
         margin-left: 29%;
         font-size: 12px;
     }
+    
+    .hero-text-box p {
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
 }
 
 
 /* Small phones: from 0 to 400px */
 @media only screen and (max-width: 480px){
     
-    .hero-text-box h1{
-    font-size: 250%;
+    
+     header {
+        /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/hero-coding-laptop.jpg);*/
+        background-image: url(img/small_Endless%20River.jpg);
+    
+    }
+    
+    .header-text-box h1{
+    font-size: 160%;
     text-align: center;   
     }
     
@@ -321,18 +352,9 @@
 }
 @media only screen and (max-width: 413px){
     
-    
-    header {
-        /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/hero-coding-laptop.jpg);*/
-        background-image: url(img/small_Endless%20River.jpg);
-        background-size: cover;
-        background-attachment:inherit;
-        height: 100vh; /*sets image to 100% of viewport*/
-    
-    }
 
-    .hero-text-box h1 {
-        font-size: 200%;
+    .header-text-box h1 {
+        font-size: 150%;
     }
     
     .projects-box figure {
@@ -361,6 +383,8 @@
 }
 
 @media only screen and (max-width: 392px){
+    
+ 
     .footer-nav {
         font-size: 75%;
         
