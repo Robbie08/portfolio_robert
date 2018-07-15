@@ -1,3 +1,4 @@
+/* global $,document,location */
 $(document).ready(function() {
     
     /*Main Functionality of sticky nav bar*/
@@ -30,7 +31,7 @@ $(document).ready(function() {
         if (target.length) {
          $('html,body').animate({
              scrollTop: target.offset().top
-        }, 2000);
+        }, 900);
         return false;
         }
         }
@@ -41,19 +42,9 @@ $(document).ready(function() {
     /*Animation on scroll*/
     $('.js--section-skills').waypoint(function(direction) {
         $('.js--section-skills').addClass('animated fadeIn');
+    } , {
+            offset: '50%'
+    });
         
-        } , {
-                offset: '200px;'
-
-        });
     
     });
-
-
-    var typed3 = new Typed('#typed', {
-    stringsElement: '#typed-strings',
-    typeSpeed: 50,
-    backSpeed: 50,
-    smartBackspace: true, // this is a default
-    loop: true
-  });

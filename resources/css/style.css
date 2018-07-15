@@ -42,6 +42,10 @@ section {
     padding: 80px 0; /*isntead of margin to preserve the bcakground color for section*/
 }
 
+nav {
+    background-color: white;
+}
+
 .box {
     padding: 3%;
 }
@@ -63,10 +67,10 @@ h3 {
 
 h1{
     margin-top: 0;
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 300%;
-    word-spacing: 4px;
+    margin-bottom: 15px;
+    font-size: 400%;
+    color: white;
+    word-spacing: 3px;
 }
 
 h2 {
@@ -120,6 +124,8 @@ h2:after {
 
 
 .img-frame {
+    width: 180px;
+    height: auto;
     border: 3px solid #42CBA2;
     border-radius: 50%;    
     margin: 2% 43.5%;
@@ -132,7 +138,7 @@ input[type=submit]{
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200px;
+    border-radius: 5px;
 }
 
 
@@ -144,10 +150,7 @@ input[type=submit]{
     color:#fff;
 }
 
-.btn:link,
-.btn:visited {
-    background-color: #42CBA2;
-}
+
 
 .btn-full:hover,
 .btn-full:active {
@@ -194,8 +197,7 @@ input[type=submit]{
 /*HEADER*/
 /*-----------------------------*/
 header {
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/hero-coding-laptop.jpg);*/
-    background-image: url(img/Endless%20River.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/waves.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -203,62 +205,49 @@ header {
     
 }
 
-.header-text-box {
-    position: absolute;
-    width: 1140px;
-    left:50%;
-    top:40%;
-    margin-top: 7%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-.header-text-box h1{
-    font-size: 300%;
-    color:white;
-    text-align: center;
-}
+
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top:70%;
+    top:50%;
     left:50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 .hero-text-box a {
-    margin-left: 39%;
-    position:absolute;
-    display: inline-block;
+    display: inline;
+    text-align: left;
     
 }
-.hero-text-box p {
-    color:white;
-    text-align: center;
-    font-size: 24px;
-}
 
-.hero-text-box div {
-    color:white;
-}
 
-/*MAIN NAVI*/
+/*------MAIN NAVI--------*/
 .main-nav {
-    width: 70%;
-    margin-left: 15%;
-    text-align: center;
+    width: 45%;
+    text-align: right;
+    float: right;
+    display: inline-block;
     list-style: none;
-    margin-top: 40px;
+    margin-top: 60px;
+}
+
+.main-logo {
+    width: 300px;
+    height: 150px;
+    float: left;
+    display: inline-block;
+    margin-top: 0;
 }
 
 .main-nav li {
     display: inline-block;
-    margin: 40px;
+    margin: 10px;
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    color:white;
+    color:#42CBA2;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
@@ -271,22 +260,29 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #42CBA2;
 }
 
-/*STICKY NAVI*/
+/*---------STICKY NAVI------------*/
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 9%;
     background-color: rgba(255, 255, 255, .98);
     -webkit-box-shadow: 0 2px 2px #b19e9e;
     box-shadow: 0 2px 2px #b19e9e;
     z-index: 9999;
 }
 
+.sticky .main-logo {
+    height: 80px;
+    width: 180px;
+    margin-top: -2px;
+}
 .sticky .main-nav {
     margin-top: 1px;
+    padding-top: 15px;
     height: 66px;
 }
 
@@ -301,8 +297,21 @@ header {
 /*My Projects VERSION 2*/
 /*-----------------------------*/
 .section-work {
-background: #f5f4f4;  /* fallback for old browsers */
+/*background: #f5f4f4;  /* fallback for old browsers */
+    
+    /*background-image: url(img/vintage_speckles.png);*/
+    background-color: #1B1B1D;
 }
+
+.section-work h2,
+.section-work h4 {
+    color:white;
+}
+
+.section-work p {
+    color: #42CBA2;
+}
+
 
 .project-description {
     margin: 4px;
@@ -320,13 +329,13 @@ background: #f5f4f4;  /* fallback for old browsers */
     display: block;
     height: 1px;
     width: 100%;
-    background-color: black;
+    background-color: #42CBA2;
     content: " "; /*after psudo class have to specify content (no words in this case)*/
 }
 
 .web-photo {
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: auto;
     margin:0;
      border-radius: 10px;
     margin-left: -10px;
@@ -361,15 +370,17 @@ background: #f5f4f4;  /* fallback for old browsers */
 /*-----------------------------*/
 .section-pricing {
 
-    background: #ECE9E6;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+   /* background: #ECE9E6;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 
     background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFF), to(#ECE9E6));
-    background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 
+    16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(img/stripes-light.png);*/
+    background:#42CBA2;
 }
 
 .pricing-header {
-    margin-bottom: 5%;
+    margin-bottom: 1.5%;
 }
-
 
 .plan-box {
     background-color: #fff;
@@ -427,7 +438,7 @@ background: #f5f4f4;  /* fallback for old browsers */
 
 .section-form {
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))), url(img/mail.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/mail.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/mail.jpg);
     background-attachment: fixed;
     background-size: cover; /*covers whole section with the backgroun BEST PRACTICE*/
     color: #fff;

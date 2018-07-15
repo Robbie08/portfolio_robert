@@ -20,11 +20,39 @@
          margin-left: 38%;
     }
     .main-nav{
-        font-size: 80%;
+        width: 60%;
+        height: auto;
+        margin-top: 25px;
+        text-align: right;
+        
+    }
+    .main-logo {
+        width:200px;
+        height: 100px;
+        
     }
     
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+    font-size: 90%;
+    }
     .img-frame {   
     margin: 2% 42.5%;
+    }
+    
+    .sticky {
+        height: 9%;
+    }
+    .sticky .main-nav {
+        padding-top: 15px;
+        
+    }
+    
+    .sticky .main-logo {
+        height: 80px;
+        width: 180px;
+        margin-top: -2px;
     }
 }
 
@@ -85,12 +113,13 @@
         font-size: 100%;
     }
     
-     .hero-text-box a {
-        margin-left: 34%;
+     .main-nav{
+        width: 90%;
+        margin-left: 5%;
     }
     
-    .main-nav {
-        font-size: 60%;
+     .hero-text-box a {
+        margin-left: 34%;
     }
     
     .img-frame {  
@@ -120,9 +149,6 @@
 }
 @media only screen and (max-width: 855px){
     
-    .main-nav{
-        font-size: 60%;
-    }
     
      .hero-text-box a {
         margin-left: 33%;
@@ -135,17 +161,7 @@
     
 }
     
-@media only screen and (max-width: 831px){
-    
-    .main-nav {
-        font-size: 55%;
-        width: 80%;
-        margin-left: 10%;
-    }
 
-    
-}
-    
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px){
    
@@ -285,20 +301,15 @@
 @media only screen and (max-width: 480px){
     
     
-     header {
-        /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/hero-coding-laptop.jpg);*/
-        background-image: url(img/small_Endless%20River.jpg);
-    
-    }
-    
+
     .header-text-box h1{
     font-size: 160%;
     text-align: center;   
     }
     
      .hero-text-box a {
-        margin-left: -22%;
-        font-size: 13px;
+        margin-left: -25%;
+        font-size: 16px;
     }
     
     .hero-text-box  {
@@ -354,8 +365,8 @@
     
 
     .hero-text-box a {
-        margin-left: -28%;
-        font-size: 13px;
+        margin-right: 5%;
+        font-size: 15px;
     }
     
     .header-text-box h1 {
