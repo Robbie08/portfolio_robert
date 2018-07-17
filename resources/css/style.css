@@ -182,7 +182,6 @@ input[type=submit]{
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #42CBA2;
-    background-color: white;
     color: #42CBA2;
 }
 
@@ -209,15 +208,34 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
+    height: 350px;
     top:50%;
     left:50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
-.hero-text-box a {
-    display: inline;
-    text-align: left;
+.hero-text-box p {
+    display: inline-block;
+    color: white;
+    width: 50%;
+    word-spacing: 3px;
+    line-height: 145%;
+    margin-bottom: 5px;
+}
+.hero-text-box .btn-full{
+    position: absolute;
+    top: 270px;
+    left:0;
+    
+}
+
+.hero-text-box .btn-ghost{
+    position: absolute;
+    top: 270px;
+    left: 250px;
+    color:white;
+    border: 1px solid white;
     
 }
 
