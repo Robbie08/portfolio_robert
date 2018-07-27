@@ -15,10 +15,6 @@
         margin-top: 10%;
     }
     
-     .hero-text-box a {
-        font-size: 19px;
-         margin-left: 38%;
-    }
     .main-nav{
         width: 60%;
         height: auto;
@@ -56,8 +52,8 @@
     }
 }
 
-@media only screen and (max-width: 1045px){
-   
+@media only screen and (max-width: 1080px){
+  
 }
 
 /* Small tablet to big tablets: from 7678px to 1023px */
@@ -65,11 +61,11 @@
     body { font-size: 18px; }
     section { padding: 60px 0; }
     
-     .hero-text-box a {
-        margin-left: 36%;
-    }
+  
+   
+    
      .main-nav{
-        font-size: 75%;
+        font-size: 90%;
     }
     .long-copy {
         width: 80%;
@@ -113,14 +109,6 @@
         font-size: 100%;
     }
     
-     .main-nav{
-        width: 90%;
-        margin-left: 5%;
-    }
-    
-     .hero-text-box a {
-        margin-left: 34%;
-    }
     
     .img-frame {  
     margin: 2% 41%;
@@ -150,10 +138,7 @@
 @media only screen and (max-width: 855px){
     
     
-     .hero-text-box a {
-        margin-left: 33%;
-    }
-    
+
     
     .img-frame {  
         margin: 2% 40%;
