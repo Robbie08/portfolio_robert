@@ -196,6 +196,7 @@ input[type=submit]{
 /*HEADER*/
 /*-----------------------------*/
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(img/waves.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/waves.png);
     background-size: cover;
     background-position: center;
@@ -225,9 +226,11 @@ header {
     margin-bottom: 5px;
 }
 .hero-text-box .btn-full{
-    position: absolute;
+
+    position:absolute;
     top: 350px;
     left:0;
+    
     
 }
 
@@ -332,6 +335,9 @@ header {
 }
 
 
+.projects-box {
+    position:inherit;
+}
 .project-description {
     margin: 4px;
     word-spacing: 2px;
@@ -353,7 +359,7 @@ header {
 }
 
 .web-photo {
-    width: 450px;
+    width: 400px;
     height: auto;
     margin:0;
      border-radius: 10px;
@@ -456,7 +462,7 @@ header {
 /*--------------------------------------------------*/
 
 .section-form {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))), url(img/mail.jpg);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.5)),to(rgba(0, 0, 0, 0.5))), url(img/mail.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/mail.jpg);
     background-attachment: fixed;
     background-size: cover; /*covers whole section with the backgroun BEST PRACTICE*/
