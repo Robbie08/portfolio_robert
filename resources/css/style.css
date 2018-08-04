@@ -366,7 +366,7 @@ header {
     margin-left: -10px;
     margin-bottom: 25px;
     overflow: hidden;
-    background-color: #F3F4F5;
+    background-color: #AARRGGBB;
 }
 
 .web-photo img {
@@ -462,8 +462,9 @@ header {
 /*--------------------------------------------------*/
 
 .section-form {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.5)),to(rgba(0, 0, 0, 0.5))), url(img/mail.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/mail.jpg);
+    /*background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.5)),to(rgba(0, 0, 0, 0.5))), url(img/mail.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/mail.jpg);*/
+    background: #888;
     background-attachment: fixed;
     background-size: cover; /*covers whole section with the backgroun BEST PRACTICE*/
     color: #fff;
@@ -592,36 +593,3 @@ footer p {
 .js--section-skills .animated {
     opacity: 1;
 }
-
-/*-----------------------------*/
-/*TYPED JS*/
-/*-----------------------------*/
- .typed-cursor {
-        opacity: 1;
-        -webkit-animation: blink .7s infinite;
-        animation: blink .7s infinite;
-    }
-
-    @-webkit-keyframes blink {
-        0% {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-
-    @keyframes blink {
-        0% {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
