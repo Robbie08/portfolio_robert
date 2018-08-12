@@ -13,9 +13,9 @@ $(document).ready(function() {
            offset: '60px;'
     });
     
-    /*Scroll on btn from home --> pricing*/
-    $('.js--scroll-to-pricing').click(function() {
-        $('html, body').animate({scrollTop: $('.js--section-pricing').offset().top}, 1000);
+    /*Scroll on btn from home --> contact*/
+    $('.js--scroll-to-contact').click(function() {
+        $('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000);
     });
     
     

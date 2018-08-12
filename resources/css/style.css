@@ -205,8 +205,8 @@ header {
     height: 500px;
     top:50%;
     left:50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -45%);
+    transform: translate(-50%, -45%);
 }
 
 .hero-text-box p {
@@ -216,7 +216,7 @@ header {
     width: 50%;
     word-spacing: 3px;
     line-height: 145%;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 
 .main-logo {

@@ -60,16 +60,16 @@
     .sticky .mobile-nav-icon { margin-top: 10px;}
     .sticky .mobile-nav-icon i { color: #555;}
    
-    
 
-    
-    h1 { font-size: 180%;}
+    .hero-text-box h1 { font-size: 180%;}
     h2 { font-size: 150%;}
     
     .long-copy {
         width: 100%;
         margin-left: 0%;
     }
+    
+    
     
 }
 
@@ -89,8 +89,13 @@
         height: 100vh; 
     }
     
-   
+    .hero-text-box p { margin-bottom: 5px; }
     
+    .hero-text-box {
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
 
     .btn-full {
         margin-top: 30px;
@@ -132,9 +137,18 @@
  
     .social-links {
         position: relative;
-        float: left;
-        left:35%;
+         transform: translate(-70%, -06%); 
+        
     }
+    
+    footer img{
+    
+        height: 90px;
+        width: auto;
+        margin: 0 17%;
+    }
+    
+    
   
 
 }
