@@ -8,13 +8,14 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,300i,400" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel='stylesheet' type='text/css'>
+
         <title>SD Web Developer</title>
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="sticky">
                 <div class="row">
                     <img class="main-logo" src="resources/img/PNGfile2%20(1).png" alt="logo">
                     <ul class="main-nav js--main-nav">
@@ -27,58 +28,75 @@
             </nav>
             
             <div class="hero-text-box">
-            
+                
+                <div class="row">
                 <h1>How can having a <br> good online presense <br> help make you more money ? </h1>
                 
-                <p class=""> 
-                    Did you know it takes less than 0.05 seconds for users to form an opinion about your website? That is litterally less than the time it takes for your eyes to blink. If you want find out how I can help you create a better online precense then scroll down.
-                </p>
+                    <p> 
+                        Did you know it takes less than 0.05 seconds for users to form an opinion about your website? That is litterally less than the time it takes for your eyes to blink. If you want find out how I can help you create a better online precense then scroll down.
+                    </p>
                 
-                <a class="btn btn-full js--scroll-to-pricing" href="#services">See what I offer</a>
-                <a class="btn btn-ghost" href="#skills">Learn how I can help</a>
+                </div>
+                
+                
+                <div class="row">
+                        <a class="btn btn-full js--scroll-to-pricing" href="#services">See what I offer</a>
+                        <a class="btn btn-ghost" href="#skills">Learn how I can help</a>
+                
+                </div>
 
-                
             </div>
                
         </header>
-        
+      <!------------------------------------------SECTION BREAK ------------------------------------->
         <section class="section-skills js--section-skills" id="skills">
             <div class="row">
+                <!--Add section header-->
                 <h2>About me</h2>
                 
-                <img class="img-frame" src="resources/img/customer-3.jpg">
-                
+                <!--Add your image -->
+                <img class="img-frame centered" src="resources/img/customer-3.jpg">
+                <!--Add your about me paragraph--->
                 <p class="long-copy">
                     Hi, i'm Robert Ortiz. I help small business who need simple and affordable marketing solutions save time, money, and also provide an online presense that will bring in more clients. Having a good online presence is very important because without it, your online useres will not turn into paying customers.
                 </p>
             </div>
             
+            <!--Contains the col of skills--->
             <div class="row">
+                <!--Firs Col: LEFT SIDE-->
                 <div class="col span-1-of-3 box">
-                    <i class="ion-map icon-big"></i>
+                    <!--Add the icon for col-->
+                    <i class="icon ion-ios-grid icon-big"></i>
+                     <!--Add the skill title-->
                     <h3>Blue Print</h3>
+                    <!--Add skill description--->
                     <p>I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing user experiences start.
                     </p>
                 </div>
-                
+                <!--Second Col: MIDDLE SIDE-->
                 <div class="col span-1-of-3 box">
+                    <!--Add the icon for col-->
                      <i class="ion-paintbrush icon-big"></i>
+                    <!--Add the skill title-->
                     <h3>User Experience</h3>
+                    <!--Add skill description--->
                     <p>I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more.
                     </p>
                 </div>
-                
+                <!--Last Col: RIGHT SIDE-->
                 <div class="col span-1-of-3 box">
-                     <i class="ion-code icon-big"></i>
+                    <!--Add the icon for col-->
+                     <i class="icon ion-ios-code icon-big"></i>
+                    <!--Add the skill title-->
                     <h3>Code</h3>
+                    <!--Add skill description--->
                     <p>I design in the browser with HTML(5), CSS(3) and a touch of JavaScript. I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.
                     </p>
                 </div>
-                
             </div>
-            
         </section>
-        
+    <!------------------------------------------SECTION BREAK ------------------------------------->
         <section class= "section-work" id="work">
             <div class="row">
                 <h2>Projects</h2>
@@ -88,11 +106,11 @@
             </div>
             <div class="row big-box">
                 <div class="col span-1-of-2 projects-box">
-                    <figure class="web-photo">
+                    <div class="web-photo centered">
                         <a href="https://shrouded-atoll-25685.herokuapp.com/" target="_blank">
                             <img src="resources/img/omnifood-body-display.PNG" alt="omnifood website landing page display">
                         </a>     
-                    </figure>
+                    </div>
                 </div>
                 <div class="col span-1-of-2 projects-box">
                     <div class="project-description">
@@ -110,11 +128,11 @@
                 
                 
                  <div class="col span-1-of-2 projects-box">
-                    <figure class="web-photo">
+                    <div class="web-photo centered">
                         <a href="https://shrouded-atoll-25685.herokuapp.com/" target="_blank">
                             <img src="resources/img/omnifood-body-display.PNG" alt="omnifood website landing page display">
                         </a>     
-                    </figure>
+                    </div>
                 </div>
              
                 <div class="col span-1-of-2 projects-box">
@@ -131,11 +149,11 @@
             
             <div class="row big-box">
                 <div class="col span-1-of-2 projects-box">
-                    <figure class="web-photo">
+                    <div class="web-photo centered">
                         <a href="https://shrouded-atoll-25685.herokuapp.com/" target="_blank">
                             <img src="resources/img/omnifood-body-display.PNG" alt="omnifood website landing page display">
                         </a>     
-                    </figure>
+                    </div>
                 </div>
                 <div class="col span-1-of-2 projects-box">
                     <div class="project-description">
@@ -144,17 +162,16 @@
                            Lorem ipsum dolor sit amet, vel saepe putent percipitur ei, cu nibh erant fabellas vel, eos ad euismod adipisci. Duo ne consul accumsan, vim ea eruditi torquatos constituto, diceret deterruisset ex mei.<br>
                         <a href="https://shrouded-atoll-25685.herokuapp.com/" class="btn btn-full" target="_blank">Visit Website</a>
                     </div>
-                </div> 
-            
-            
-            </div>
-            
-            
+                </div>
+            </div> 
         </section>
-        
+         <!------------------------------------------SECTION BREAK ------------------------------------->
         <section class="section-pricing js--section-pricing" id="services">
             <div class="row pricing-header">
+                
+                <!--Add the section header-->
                 <h2 style="color: #fff">Pricing</h2>
+                <!--Add description for section-->
                 <p style="color: #fff" class="long-copy">
                     Having trouble deciding what package to pick? Not a problem, contact me so that I may asssist you on selecting the package that better suits your business goals.
                 </p>
@@ -163,13 +180,17 @@
                 <div class="col span-1-of-3">
                         <div class="plan-box js--wp-4">
                             <div>
+                                <!--Add the package name-->
                                 <h3>Excecutive</h3>
+                                <!--Add the package price in dollars--->
                                 <p class="plan-price">1000 <span>USD</span></p>
+                                <!--Add the package description---->
                                 <p class="plan-price-meal">Excecutive marketing package</p>
 
                             </div>
 
                             <div>
+                                <!--Add features for this package--->
                                 <ul>
                                    <li><i class="ion-ios-checkmark-empty icon-small"></i> 5 Section website</li>
                                    <li><i class="ion-ios-checkmark-empty icon-small"></i> Search engine optimization</li>
@@ -187,6 +208,7 @@
                                 </ul>
                             </div>
                             <div>
+                                <!--Sign up button-->
                                 <a href="#" class="btn btn-full">Contact me</a>
                             </div>
                         </div>
@@ -195,13 +217,17 @@
                 <div class="col span-1-of-3">
                     <div class="plan-box">
                         <div>
+                            <!--Add the package name-->
                             <h3>Premium</h3>
+                            <!--Add the package price in dollars--->
                             <p class="plan-price">500 <span>USD</span></p>
+                            <!--Add the package description---->
                             <p class="plan-price-meal">Premium marketing package</p>
                         
                         </div>
                         
                         <div>
+                            <!--Add features for this package--->
                             <ul> 
                                <li><i class="ion-ios-checkmark-empty icon-small"></i> 4 Section website</li>
                                <li><i class="ion-ios-checkmark-empty icon-small"></i> Search engine optimization</li>
@@ -214,21 +240,28 @@
                             </ul>
                         </div>
                         <div>
+                            <!--Sign up button-->
                             <a href="#" class="btn btn-ghost">Contact me</a>
                         </div>
                     </div>
                 </div>
                 
+                <!--This is a price box: RIGHT-->
                 <div class="col span-1-of-3">
                     <div class="plan-box">
                         <div>
+                            <!--Add the package name-->
                             <h3>Portfolio</h3>
+                            <!--Add the package price in dollars--->
                             <p class="plan-price">250 <span>USD</span></p>
-                            <p class="plan-price-meal">Portfolio</p>
+                            <!--Add the package description---->
+                            <p class="plan-price-meal">Basic Portfolio</p>
                         
                         </div>
                         
                         <div>
+                            
+                            <!--Add features for this package--->
                             <ul>
                                <li><i class="ion-ios-checkmark-empty icon-small"></i> 3 Section website</li>
                                <li><i class="ion-ios-checkmark-empty icon-small"></i> Search engine optimization</li>
@@ -238,6 +271,7 @@
                             </ul>
                         </div>
                         <div>
+                            <!--Sign up button-->
                             <a href="#" class="btn btn-ghost">Contact me</a>
                         </div>
                     </div>
@@ -247,21 +281,30 @@
         
         </section>
         
+    <!------------------------------------------SECTION BREAK ------------------------------------->
         <section class="section-form" id="contact">
+            
             <div class="row">
+                <!--Add Section Header-->
                 <h2>Contact Me</h2>
+                <!--Add Supporting paragraph for contact form section-->
                 <p class="long-copy">
                     Let's make something awesome together.<br>Drop me a line and tell me all about
                     your dream website. 
                 </p>
             </div>
             
+            <!--This Row includes all the form components-->
             <div class="row">
+                
+                <!-- Add path to forward message in action--->
                 <form action="https://formspree.io/ortiz.roberto08@outlook.com"
                 method="POST" class="contact-form">
+                    
+                    <!--Form text box for name--->
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label >&nbsp;</label>
+                            <label for="name">Name</label>
                         </div>
                         
                         <div class="col span-2-of-3">
@@ -269,19 +312,50 @@
                         </div>
                     </div>
                     
+                    <!--Form text box for number-->
+                    <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="phone">Number</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="text" name="number" id="number" placeholder="Your Number" required>
+                            </div>
+                        </div>
+                    
+                    <!--Form text box for email--->
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label >&nbsp;</label> 
+                            <label for="email">Email</label>
                         </div>
                         
                         <div class="col span-2-of-3">
                             <input type="email" name="_replyto" id="email" placeholder="Your email" required>
                         </div>
                     </div>
+                    
+                    <!--Form selector for information on how they got to your website-->
+                    <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="find-us">How did you find me?</label>
+                            </div>
+
+                            <!--Add your options for the selector below--->
+                            <div class="col span-2-of-3">
+                                <select name="find-us" id="find-us">
+                                    <option value="empty">...</option>
+                                    <option value="friends" selected>Friends</option>
+                                    <option value="search">Search engine</option>
+                                    <option value="ad">Advertisement</option>
+                                    <option value="none">Not Applicable</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
             
+                    <!--Form text box for the message--->
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label >&nbsp;</label>
+                            <label >Drop me a line</label>
                         </div>
                         
                         <div class="col span-2-of-3">
@@ -289,59 +363,61 @@
                         </div>
                     </div>
                     
-                
+                    <!--Form button to submit form--->
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label >&nbsp;</label>
                         </div>
                         
                         <div class="col span-2-of-3 submit" >
-                            <input class="btn btn-full" type="submit" value="Send it!">
+                            <input class="btn btn-full centered" type="submit" value="Send it!">
                         </div>
                     </div>
-                    
-                    
                 </form>
-            
             </div>
-        
         </section>
-        
+       
+     <!------------------------------------------SECTION BREAK ------------------------------------->
            <footer>
             <div class="row">
-                <div class="col span-1-of-2">
-                    <ul class="footer-nav">
-                        <li><a href="#">About me</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact me</a></li>
-                    </ul>
+                
+                <!-- Add Footer Company/Personal Logo: LEFT COL -->
+                <div class="col span-1-of-3">
+                   <img src="resources/img/PNGfile2%20(1).png" alt="SD Web Developer logo" class="footer-logo">
                 </div>
                 
-                <div class="col span-1-of-2">
+                <!-- Add Footer Contact Information: MIDDLE COL -->
+                <div class="col span-1-of-3">
+                    <h3>Roberto Ortiz</h3>
+                    <p>619 419 6610</p>
+                    <p>ortiz.roberto08@outlook.com</p>
+                    <p>San Diego, CA</p>
+                </div>
+
+                <!--- Add Footer Social Media links:  RIGHT COL -->
+                <div class="col span-1-of-3">
                     <ul class="social-links">
-                        <li><a href="https://www.linkedin.com/in/roberto-ortiz-86104570/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
-                        <li><a href="https://github.com/Robbie08" target="_blank"><i class="ion-social-github"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="ion-social-instagram" ></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/roberto-ortiz-86104570/"  target="_blank"><i class="icon ion-logo-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
                     </ul>
-                </div>
-                
-                <div class="row">
-                    <p>
-                        Copyright &copy; 2018 by Roberto Ortiz<br>
-                        San Diego, CA<br>
-                    </p>
                 </div>
             </div>
+            
+            <!-- Add the Copy writers information here-->
+            <div class="row">
+                    <p>
+                        Copyright &copy; 2018 SDWebDeveloper.com ,. All rights reserved
+                    </p>
+                </div>
                
         </footer>
-       
+    <!------------------------------------------SECTION BREAK ------------------------------------->
+        <!--Incorporate all scripts below--->
         <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/src/respond.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="vendors/js/typer.js"></script>
-        <script src="vendors/js/typed.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
         <script src="resources/js/script.js"></script>
     </body>
@@ -351,6 +427,12 @@
 
 
  <!--
+
+
+         <li><a href="https://www.linkedin.com/in/roberto-ortiz-86104570/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="https://github.com/Robbie08" target="_blank"><i class="ion-social-github"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="ion-social-instagram" ></i></a></li>
+
 
                 , your friendly web developer. I know finding the right developer to make your website can be hard and not to mention time consuming. No need stop building your business to find a developer because I am the developer your business need. With my skills and your vision we will develop a fenomenal website that will bring in more customers right through those doors.
 

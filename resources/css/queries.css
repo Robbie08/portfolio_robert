@@ -9,104 +9,13 @@
     .row {padding: 0 2%;}
 }
 
-@media only screen and (max-width: 1199px){
-    .big-box {
-        display: block;
-        margin-top: 10%;
-    }
-    
-    .main-nav{
-        width: 60%;
-        height: auto;
-        margin-top: 25px;
-        text-align: right;
-        
-    }
-    .main-logo {
-        width:200px;
-        height: 100px;
-        
-    }
-    
-    
-    .main-nav li a:link,
-    .main-nav li a:visited {
-    font-size: 90%;
-    }
-    .img-frame {   
-    margin: 2% 42.5%;
-    }
-    
-    .sticky {
-        height: 9%;
-    }
-    .sticky .main-nav {
-        padding-top: 15px;
-        
-    }
-    
-    .sticky .main-logo {
-        height: 80px;
-        width: 180px;
-        margin-top: -2px;
-    }
-    
-    
-     .hero-text-box .btn-full{
-
-        top: 350px;
-        left: 20px;
-    }
-
-    .hero-text-box .btn-ghost{
-
-        top: 350px;
-        left: 250px;
-  
-    }
-}
-
-@media only screen and (max-width: 1080px){
-  
-  
-    .hero-text-box .btn-full{
-
-        top: 375px;
-        left: 15px;
-    }
-
-    .hero-text-box .btn-ghost{
-
-        top: 375px;
-        left: 250px;
-  
-    }
-
-}
 
 /* Small tablet to big tablets: from 7678px to 1023px */
 @media only screen and (max-width: 1023px){
     body { font-size: 18px; }
     section { padding: 60px 0; }
-    
-  
-      .hero-text-box .btn-full{
-
-        top: 370px;
-        left: 20px;
-    }
-
-    .hero-text-box .btn-ghost{
-
-        top: 370px;
-        left: 250px;
-  
-    }
    
     
-     .main-nav{
-        font-size: 90%;
-    }
     .long-copy {
         width: 80%;
         margin-left: 10%;
@@ -117,230 +26,51 @@
         line-height: 125%;
     
     }
-
-    .web-photo img {
-        margin: 10px;
- 
+    
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
     }
     
-    .big-box {
-        margin-top: 5%;
-    }
-    
-    input[type=submit]{
-        margin-left: 15%;
-    }
-
+    .contact-form {width: 80%;}
 }
-
-@media only screen and (max-width: 986px)
-{
-   
-    
-    .img-frame {  
-    margin: 2% 42%;
-}
-    
-}
-
-
-@media only screen and (max-width: 942px){
-    .project-description{ 
-        font-size: 100%;
-    }
-    
-    
-    .img-frame {  
-    margin: 2% 41%;
-}
-    
-    input[type=submit]{
-        margin-left: 13.5%;
-    }
-    
-     .web-photo img {
-        margin-right:4%;
-        width: 95%;
-    }
-    
-     input[type=text],
-    input[type=email],
-    select,
-    textarea {
-        width:80%;
-    
-    }
-    
-    .section-form textarea{
-        width: 80%;
-    }
-}
-@media only screen and (max-width: 855px){
-    
-    
-
-    
-    .img-frame {  
-        margin: 2% 40%;
-    }
-    
-}
-    
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px){
    
     body {font-size: 16px;}
-    .hero-text-box {
-        width: 100%;
-        padding: 0 4%;
-    }
+    section {padding: 30px 0;}
     
-  
+    .row,
+    .hero-text-box {padding: 0 4%;}
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
     .main-nav{ display: none;}
-    
-    .img-frame {  
-        margin: 2% 39.5%;
-    }   
-  
-    .project-description {
-        font-size: 90%;
-    }
-    
-    
-    input[type=submit]{
-          margin-left: 11%;;
-    }
-    
-    .web-photo img {
-        margin-right:4%;
-        width: 95%;
- 
-    }
-    
-    }
-
-@media only screen and (max-width: 728px){
-     .footer-nav {
+    .mobile-nav-icon {
+        display: inline-block;
         
-         font-size: 90%;
-         margin-right: 0;
     }
     
+    .sticky .main-nav { margin-top:10px;}
 
-     .img-frame {  
-        margin: 2% 39%;
-    } 
-    
-    .hero-text-box h1 {
-        font-size: 30px;
-    }
-    
-      .hero-text-box .btn-full{
-
-        top: 370px;
-        left: 20px;
-    }
-
-    .hero-text-box .btn-ghost{
-
-        top: 370px;
-        left: 250px;
-  
-    }
-}
-
-
-@media only screen and (max-width: 680px)
-{
- 
-  
-     .img-frame {  
-        margin: 2% 37%;
-    } 
-}
-
-@media only screen and (max-width: 625px)
-{
-    
-    
-    .hero-text-box h1 {
-        font-size: 28px;
-    }
-     .img-frame {  
-        margin: 2% 36%;
-    } 
-    
- 
-}
-@media only screen and (max-width: 590px)
-{
-    .hero-text-box {
-        margin-top: -100px;
-    }
-    
-    .hero-text-box h1 {
-        font-size: 24px;
-    }
-    .hero-text-box {
-        top:60%; 
-    }
-    
-     .img-frame {  
-        margin: 2% 35.5%;
-    } 
-    
-   
-}
-
-@media only screen and (max-width: 525px)
-{
-     .img-frame {  
-        margin: 2% 34%;
-    } 
-    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px;}
+    .sticky .mobile-nav-icon i { color: #555;}
    
     
-     .hero-text-box p {
-        font-size: 18px;
-        word-spacing: 1px;
-         color: #42CBA2;
-    }
-   
-    .hero-text-box h1 {
-    font-size: 28px;
-    }
+
     
-    .hero-text-box .btn-full{
-
-        display: none;
-    }
-
-    .hero-text-box .btn-ghost{
-
-        display: none;
-  
-    }
-}
-
-@media only screen and (max-width: 515px)
-{
-     .img-frame {  
-        margin: 2% 33%;
-    } 
+    h1 { font-size: 180%;}
+    h2 { font-size: 150%;}
     
- 
-
-
-    .web-photo img {
+    .long-copy {
         width: 100%;
-        height: 100%;
-        
-        
-   
-}
+        margin-left: 0%;
+    }
     
-   
 }
 
 
@@ -348,131 +78,65 @@
 @media only screen and (max-width: 480px){
     
  
-  
-     .web-photo {
-        width: 300px;
-        height: auto;
-        margin:0;
-        border-radius: 5px;
-        margin-left: 35px;
-         padding: 0;
-        margin-bottom: 25px;
+    section { padding: 25px 0;}
+    body {font-size: 15px;}
+    .contact-form {width: 100%;}
 
+    header {
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        height: 100vh; 
+    }
+    
+   
+    
 
-}
+    .btn-full {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .btn-ghost { 
+        margin-right: 0; 
+        width: 100%;
+    }
+    
+    section{ font-size: 90%; }
+    
+     
+    .footer-nav li,
+    .social-links li {
+        margin-right: 7.5px;  
+    }
+    
     
     .hero-text-box {
         text-align:center;
-        margin-top: -180px;
+        
 
         
-    }.hero-text-box p{
-        word-spacing: 2px;
+    }
+    .hero-text-box p{
+        word-spacing: 1px;
         line-height: 20px;
+        width: 95%;
         
     }
 
-    .section-skills img {
-        margin: 10px 125px;
+    .hero-text-box h1 {
+          width: 105%;
     }
-    
  
+    .social-links {
+        position: relative;
+        float: left;
+        left:35%;
+    }
   
 
-    .web-photo img {
-        width: 100%;
-        height: 100%;
-        
-        
-   
-}
-    
-    .plan-box div{
-        margin-bottom: 10%
-
-    }
-    
-    .section-form textarea{
-        margin-left: 10%;
-    }
-    input[type=submit]{
-        margin-left: 150px;
-
-    }
-    
-    input[type=text],
-    input[type=email],
-    select,
-    textarea {
-        margin-left: 10%;
-    
-    }
-    
-    .footer-nav {
-        list-style: none;
-        float: center;
-        
-    
-    }
-
-   
-    .social-links {
-        list-style: none;
-        float: middle;
-        margin-right: 120px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    
-}
-@media only screen and (max-width: 413px){
-    
-
-    .section-skills img {
-        margin: 10px 50px;
-    }
-    
-    
-    .projects-box figure {
-        margin-left: -2.5%;
-    }
-    
-     input[type=submit]{
-        margin-left: 33%;
-    }
-    
-    .social-links {
-    
-        margin-right: 30%;
-    }
-    
-    .footer-nav {
-        font-size: 85%;
-        
-    }
-    
-    
-    
-    
 }
 
-@media only screen and (max-width: 392px){
-    
- 
-    
-    .footer-nav {
-        font-size: 75%;
-        
-    }
-    
-    .web-photo img {
-        margin-left:7%;
-        width: 90%;
- 
-    }
-    
-    .img-frame {  
-        margin: 2% 28%;
-    } 
-}
 
